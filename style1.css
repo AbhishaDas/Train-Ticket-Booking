@@ -1,0 +1,111 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(120, 136, 122);
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: 78px auto;
+    padding: 20px;
+    
+}
+
+
+
+h1 {
+ 
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 1px 0 0 gray;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 265px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 0 gray;
+}
+
+
+.psw{
+    align-items: center;
+    margin-left: 336px;
+    font-size: small;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.train {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.compartment {
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.proceed{
+    box-sizing: border-box;
+    background-color: rgb(217, 189, 243);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+
+

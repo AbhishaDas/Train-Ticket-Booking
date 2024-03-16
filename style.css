@@ -1,0 +1,86 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./ankush-minda-7KKQG0eB_TI-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-color: rgb(255, 255, 255);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+.inquiry{
+    text-align: center;
+    overflow: hidden;
+    max-width: 600px;
+    background: #fffefe5e;
+    margin-left: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 200px; 
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+.inquiry .title {
+    /* display: flex; */
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    background-color:transparent;
+}
+
+#from{
+    width: 180px;
+    height: 28px;
+}
+
+#to{
+    width: 180px;
+    height: 28px;
+}
+
+.sec2{
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 65px;
+    padding: 6px;
+}
